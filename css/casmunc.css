@@ -5,12 +5,17 @@ H1{
 }
 
 .logo img{
-  width:100%;
+  width: 75px;
   margin: 5px;
   border-radius: 5%;
   padding: 5px;
 
-    
+}
+
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
 }
 
 .twitter{
@@ -25,6 +30,7 @@ H1{
 .facebook{
     margin: 5px;
  }
+ 
 
 * {
     box-sizing: border-box;
@@ -123,5 +129,35 @@ H1{
     .nav > #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);
       overflow-y: auto;
+    }
+
+    body{
+      background-image: url("../img/cbury_school.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+    .about{
+      background-color: #0074f0;
+      font-family:poppins,"comic sans ms";
+      color: #fff
+
+
+    }
+
+    .bg_info{
+      background-color: #0118Eb;
+      color: #fff;
+
+
+
+    }
+
+    .credits{
+      color: #fff;
+
+
+
     }
   

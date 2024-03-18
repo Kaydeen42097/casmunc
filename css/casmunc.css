@@ -2,6 +2,7 @@ H1{
     color: #fff;
     margin: 10px;
 
+
 }
 
 .logo img{
@@ -36,11 +37,6 @@ H1{
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0px;
-    font-family: 'segoe ui';
-    background-color: #D5CDCC;
-  }
   
   .nav {
     height: 50px;
@@ -112,7 +108,7 @@ H1{
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #333;
+      background-color: #fff;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -122,6 +118,7 @@ H1{
     .nav > .nav-links > a {
       display: block;
       width: 100%;
+      color: black;
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
@@ -136,26 +133,59 @@ H1{
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: 100%;
+      background-color: #0118Eb;
+      background-position:top 50px left 0;
+      margin: 0;
     }
 
     .about{
       background-color: #0074f0;
-      font-family:poppins,"comic sans ms";
-      color: #fff
+      font-family:Poppins;
+      color: #fff;
+      margin-top: 200px;
+      padding: 15px;
+     
+    }
+
+
+    
+
+    .bg_info{
+      background-color: #0074f0;
+      color: #fff;
+      padding: 15px;
+
 
 
     }
 
-    .bg_info{
-      background-color: #0118Eb;
+    .msg{
+      background-color: #0074f0;
+
+    }
+
+    .msg_ttl{
       color: #fff;
+    }
 
+    .msg_txt{
+      color: #fff;
+      font-family: Poppins;
+      padding: 15px;
+      
+      
+    }
 
+    .sign{
+      font-family: "Cedarville Cursive";
+      padding: 15px;
+      color: #fff;
 
     }
 
     .credits{
       color: #fff;
+      padding: 15px;
 
 
 

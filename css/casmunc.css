@@ -128,12 +128,14 @@ H1{
       overflow-y: auto;
     }
 
+    
+
     body{
       background-image: url("../img/cbury_school.jpg");
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: 100%;
-      background-color: #0118Eb;
+      background-color: #0074f0;
       background-position:top 50px left 0;
       margin: 0;
     }
@@ -144,37 +146,40 @@ H1{
       color: #fff;
       margin-top: 200px;
       padding: 15px;
-     
+      justify-items: center;
     }
-
-
     
+    .about h2{
 
+      text-decoration: underline;
+      text-decoration-color: black;
+    }
     .bg_info{
       background-color: #0074f0;
       color: #fff;
       padding: 15px;
+    }
 
-
-
+    .bg_info h3{
+      font-family:Poppins;
     }
 
     .msg{
       background-color: #0074f0;
-
     }
 
     .msg_ttl{
       color: #fff;
       margin: 0;
+      padding: 15px;
+      text-decoration:underline;
+      text-decoration-color: black;
     }
 
-    .msg_txt{
+    .msg p{
       color: #fff;
       font-family: Poppins;
-      padding: 15px;
-      
-      
+      padding: 3px 15px;
     }
 
     .sign{
@@ -185,10 +190,338 @@ H1{
     }
 
     .credits{
-      color: #fff;
+      color: black;
       padding: 15px;
-
-
+      background-color: #fff;
 
     }
+
+    .email{
+      background-color: #0074f0;
+      color: #fff;
+      padding:15px;
+      margin: 0px;
+    }
+
+    .credit{
+      margin: 0px;
+    }
+
+    .show{
+      display: none;
+    }
   
+   /* @media screen and (min-width: 500 px) {
+
+      .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #4d4d4d;
+        position: relative;
+      }
+      
+      .nav > .nav-header {
+        display: inline;
+      }
+      
+      .nav > .nav-header > .nav-title {
+        display: inline-block;
+        font-size: 22px;
+        color: #fff;
+        padding: 10px 10px 10px 10px;
+      }
+      
+      .nav > .nav-btn {
+        display: none;
+      }
+      
+      .nav > .nav-links {
+        display: inline;
+        float: right;
+        font-size: 18px;
+      }
+      
+      .nav > .nav-links > a {
+        display: inline-block;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        color: #efefef;
+      }
+      
+      .nav > .nav-links > a:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      
+      .nav > #nav-check {
+        display: none;
+      }
+      
+    } */
+
+
+
+    @media screen and (min-width: 1000px) {
+
+     .abouts{
+      margin: 0 auto;
+      background-color:white;
+      color: black;
+     }
+
+     .email{
+      background-color: #fff;
+      color: black;
+      padding:15px;
+      margin: 0px;
+
+    }
+
+    .sign{
+      font-family: "Cedarville Cursive";
+      padding: 15px;
+      color: #fff;
+      background-color: #fff;
+      color: black;
+
+    }
+
+    .msg p{
+      background-color: #fff;
+      color: black;
+      font-family: Poppins;
+      padding: 3px 15px;
+    }
+
+    .msg{
+      background-color: #fff;
+      color: black;
+    }
+
+    .bg_info{
+      background-color: #fff;
+      color: black;
+    }
+
+    .msg_ttl{
+      color: black;
+      margin: 0;
+      padding: 15px;
+      text-decoration:underline;
+      text-decoration-color: black;
+    }
+
+    .credits h3{
+      color: black;
+      margin: 0;
+      padding: 15px;
+      text-decoration:underline;
+      text-decoration-color: black;
+    }
+
+    .show {
+      width: 200px;
+      display: block;
+      float: right;
+    }
+
+    .history{
+      background-color: white;
+    }
+
+    .staff{
+      display: flex;
+    }
+
+    .staff1, .staff2{
+      width: 50%;
+    }
+
+    .staff1 img, .staff2 img{
+      width:100%;
+    }
+
+
+}
+
+.abouts{
+  margin: 0 auto;
+  background-color:white;
+  color: black;
+ }
+
+ .email{
+  background-color: #fff;
+  color: black;
+  padding:15px;
+  margin: 0px;
+
+}
+
+.sign{
+  font-family: "Cedarville Cursive";
+  padding: 15px;
+  color: #fff;
+  background-color: #fff;
+  color: black;
+
+}
+
+.msg p{
+  background-color: #fff;
+  color: black;
+  font-family: Poppins;
+  padding: 3px 15px;
+}
+
+.msg{
+  background-color: #fff;
+  color: black;
+}
+
+.bg_info{
+  background-color: #fff;
+  color: black;
+}
+
+.msg_ttl{
+  color: black;
+  margin: 0;
+  padding: 15px;
+  text-decoration:underline;
+  text-decoration-color: black;
+}
+
+.credits h3{
+  color: black;
+  margin: 0;
+  padding: 15px;
+  text-decoration:underline;
+  text-decoration-color: black;
+}
+
+.show {
+  width: 200px;
+  display: block;
+  float: right;
+}
+
+.history{
+  background-color: white;
+}
+
+.staffs{
+  display: flex;
+  justify-content: center;
+}
+
+
+.picss{
+  display: flex;
+  justify-content: center;
+
+}
+
+.staff1{
+  text-align: center;
+
+}
+
+.staff2{
+  text-align: center;
+
+}
+
+.person img{
+  width:90%;
+  padding-left: 35px;
+}
+
+.person h3,.person p{
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .person img{
+    width:50%;
+
+  }
+
+  .person{
+    text-align: center;
+  }
+
+}
+
+.m{
+
+  width: 100%;
+
+}
+
+.t{
+
+  width: 100%;
+
+}
+
+.but a:link, .but a:visited {
+  display: inline-block;
+  background-color: white;
+  border: black solid 5px;
+  color: black;
+  font-size: 22;
+  font-weight: bold;
+  line-height: 10px;
+  margin: 5px;
+}
+
+
+.bar{
+
+  margin-top: 100px;
+  background-color: #3482B5;
+
+}
+
+.ken{
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .b img{
+    display: inline-block;
+    width: 50%;
+  }
+
+  .k img{
+    display: inline-block;
+    width: 50%;
+  }
+
+  .m{
+    width: 100%;
+  }
+
+  .sochum{
+display: flex;
+gap: 60px;
+margin-top: 20px;
+margin-left: 20px;
+  }
+
+  .sochum div{
+    width: 50%;
+  }
+
+  .prest{
+    display: flex;
+    justify-content: center;
+  }
+
+  .k{
+    width: 50%;
+  }
+
+}
